@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp37
+{
+    class Program
+    {
+        public static void sum ()
+      {
+            int[] e = { 23, 45, 67 };
+            Console.WriteLine(e.Sum());
+            
+           
+      }
+        static void Main(string[] args)
+        {
+            sum();
+            Console.ReadLine();
+           
+        }
+    }
+}
